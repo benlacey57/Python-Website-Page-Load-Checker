@@ -1,0 +1,7 @@
+Timestamp,Site URL,Page Name,Page URL,Load Time,First Paint,DOM Content Loaded,Number Requests,Page Weight Bytes,Measurement Method,Note
+2024-06-28 11:46:07,https://benlacey.co.uk,Home,https://benlacey.co.uk/,2.44,1.98,1.96,35,0.18,Selenium,manual test
+2024-06-28 11:46:08,https://benlacey.co.uk,About,https://benlacey.co.uk/about/,0.68,0.62,0.59,43,0.06,Selenium,manual test
+2024-06-28 11:46:09,https://benlacey.co.uk,Contact,https://benlacey.co.uk/contact/,1.75,1.2,1.66,48,0.02,Selenium,manual test
+2024-06-28 11:46:36,https://benlacey.co.uk,Home,https://benlacey.co.uk/,0.86,0.78,0.8,17,0.11,Selenium,manual test 2
+2024-06-28 11:46:37,https://benlacey.co.uk,About,https://benlacey.co.uk/about/,1.06,0.95,0.94,43,0.0,Selenium,manual test 2
+2024-06-28 11:46:38,https://benlacey.co.uk,Contact,https://benlacey.co.uk/contact/,1.19,1.09,1.12,52,0.08,Selenium,manual test 2

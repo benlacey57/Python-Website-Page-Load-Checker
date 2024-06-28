@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speed Test Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+    <h1>Speed Test Report</h1>
+    <p>{domain}</p>
+  
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Domain</th>
+                <th>Page</th>
+                <th>Load Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>{date}</td>
+                <td>{domain}</td>
+                <td>{page}</td>
+                <td>{load_time}</td>
+            </tr>
+        </tbody>
+  </table>
+</body>
+</html>

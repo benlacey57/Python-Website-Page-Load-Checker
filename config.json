@@ -1,0 +1,43 @@
+{
+    "sites": {    
+        "site1": {
+            "enabled": true,
+            "url": "https://benlacey.co.uk"
+        },
+        "site2": {
+            "enabled": false,
+            "url": "https://staging.somedomain.com",
+            "authentication": {
+                "username": "",
+                "password": "testpassword"
+            }
+        }
+    },
+    "speed_check_method": "selenium",
+    "selenium": {
+        "driver": "chrome",
+        "driver_path": "/usr/local/bin/chromedriver",
+        "headless": false,
+        "window_size": {
+        "width": 1920,
+        "height": 1080
+        }
+    },
+    "pages": [
+        {
+        "url": "/",
+        "name": "Home",
+        "lighthouse_scan": false
+        },
+        {
+        "url": "/about/",
+        "name": "About",
+        "lighthouse_scan": false
+        },
+        {
+        "url": "/contact/",
+        "name": "Contact"
+        }
+    ],
+    "target_load_time": 3
+}
