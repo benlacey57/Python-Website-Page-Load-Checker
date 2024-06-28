@@ -32,14 +32,14 @@ This is where you can specify the websites to run checks on. The authentication 
 "sites": [
     {
         "enabled": true,
-        "url": "https://shop.eachperson.com"
+        "url": "https://somedomain.com"
     },
     {
         "enabled": false,
-        "url": "https://staging-shop.eachperson.com",
+        "url": "https://staging.somedomain.com",
         "authentication": {
-            "username": "test_automated_user_0e83f36d0fd5@genesesolution.com",
-            "password": "Password+123"
+            "username": "testuser",
+            "password": ""
         }
     }
 ]
@@ -61,15 +61,10 @@ This configuration allows us to specify what pages we want to audit for performa
         "lighthouse_scan": false
     },
     {
-        "url": "/cinema/",
-        "name": "cinema",
+        "url": "/contact/",
+        "name": "contact",
         "lighthouse_scan": false
     },
-    {
-        "url": "/deals/",
-        "name": "deals",
-        "lighthouse_scan": false
-    }
 ]
 ```
 
