@@ -5,3 +5,6 @@ Timestamp,Site URL,Page Name,Page URL,Load Time,First Paint,DOM Content Loaded,N
 2024-06-28 11:46:36,https://benlacey.co.uk,Home,https://benlacey.co.uk/,0.86,0.78,0.8,17,0.11,Selenium,manual test 2
 2024-06-28 11:46:37,https://benlacey.co.uk,About,https://benlacey.co.uk/about/,1.06,0.95,0.94,43,0.0,Selenium,manual test 2
 2024-06-28 11:46:38,https://benlacey.co.uk,Contact,https://benlacey.co.uk/contact/,1.19,1.09,1.12,52,0.08,Selenium,manual test 2
+2024-06-28 13:07:23,https://benlacey.co.uk,Home,https://benlacey.co.uk/,2.68,2.0,1.99,39,0.28,Selenium,test
+2024-06-28 13:07:23,https://benlacey.co.uk,About,https://benlacey.co.uk/about/,0.68,0.61,0.61,42,0.0,Selenium,test
+2024-06-28 13:07:24,https://benlacey.co.uk,Contact,https://benlacey.co.uk/contact/,1.12,0.61,1.07,48,0.02,Selenium,test

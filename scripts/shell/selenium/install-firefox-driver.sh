@@ -21,7 +21,7 @@ sudo mv geckodriver $DRIVERS_DIR
 sudo chmod +x $DRIVERS_DIR/geckodriver
 
 # Clean up the downloaded tar.gz file
-# rm geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz
+rm geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz
 
 # Update PATH if necessary
 if ! [[ $PATH == *"$DRIVERS_DIR"* ]]; then

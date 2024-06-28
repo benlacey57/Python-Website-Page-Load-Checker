@@ -1,7 +1,8 @@
 '''
 Run Page Speed Insights
+
 Author: Ben Lacey
-Date: Jan 2024
+Date: Jun 2024
 
 - This script runs PageSpeed Insights for each page specified in your config.json file.
 - The results, including the timestamp, site URL, page URL, and selected metrics, are saved in a Pandas DataFrame.
